@@ -1,0 +1,127 @@
+body{
+ 
+    margin:0;
+    padding:0;
+    font-family:Helvetica,Arial;
+        height: 100%;
+        background: linear-gradient(90deg,     #e7eef3 50%,   #f7fcf9 50%);
+    
+    }/*control direction*/
+    .A{
+          float: right;
+          margin-left:10;
+           margin: right 400;
+            margin-top:5;
+           color: #778382;
+    }
+   
+    .rd{
+      background-color: white; 
+      color: black; 
+      border: 2px solid   #88d8b2 ;
+      height: 50;
+      width: 100;
+    float: right;
+     margin-right:180;
+     margin-top:200;
+     border-radius: 10px;
+      position: absolute;
+      right:0;
+    }
+    .rd:hover{
+      background-color:#88d8b2 ;
+      color: white;
+    }
+    /*stop button*/
+    .sd{
+    background-color: white; 
+      color: black; 
+      border: 2px solid   #88d8b2 ;
+      height: 50;
+      width: 100;
+    float: right;
+     margin-right:300;
+     margin-top:120;
+     border-radius: 10px;
+       position: absolute;
+      right:0;
+    }
+    .sd:hover{
+     background-color:#88d8b2 ;
+      color: white;
+    }
+    /* forward button*/
+    .fd{
+        background-color: white; 
+      color: black; 
+      border: 2px solid     #f3a182  ;
+        height: 50;
+      width: 100;
+    float: right;
+     margin-right:300;
+     margin-top:200;
+    border-radius: 50px;
+       position: absolute;
+      right:0;
+    }
+    .fd:hover{
+        background-color:  #f3a182 ;
+      color: white;
+    }
+    /* the left button */
+    .ld{
+    background-color: white; 
+      color: black; 
+      border: 2px solid    #88d8b2  ;
+        height: 50;
+      width: 100;
+    float: right;
+     margin-right:420;
+     margin-top:200;
+    border-radius: 10px;
+       position: absolute;
+      right:0;
+    }
+    .ld:hover{
+        background-color:  #88d8b2 ;
+      color: white;
+    }
+    /* the bottom*/
+    .bd{
+        background-color: white; 
+      color: black; 
+      border: 2px solid    #88d8b2  ;
+        height: 50;
+      width: 100;
+    float: right;
+     margin-right:300;
+     margin-top:280;
+    border-radius: 10px;
+       position: absolute;
+      right:0;
+    }
+    .bd:hover{
+        background-color:  #88d8b2 ;
+      color: white;
+    }
+    .B{
+        float: left;
+          margin-left:15;
+        margin: left 40;
+            margin-top:5;
+           color: #778382;
+    }
+
+    
+    div {
+        background-color: #9dc6f5e3;
+        border: none;
+        color: rgb(23, 23, 29);
+        padding: 20px 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 10px 60px;
+        cursor: pointer;
+    }
